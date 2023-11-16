@@ -1,18 +1,24 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
+
 int main()
 {   
-    int n;
-    cin >> n;
-   
-    int * a = new int [n];
-    for(int i=0; i<n; i++)
-    {
-        cin >> a[i];
-    }
-    for(int i=0; i<n; i++)
-    {
-        cout << a[i] <<endl;
-    }
-   return 0;
+    // Dynamic array
+    
+    int *ar = new int [10];
+    ar[0] = 10;
+    ar[1] = 100;
+    delete[] ar;
+    
+    
+    
+    
+
+    // static array
+    // int a[5] = { 1, 2, 3, 4, 5};
+    // int *p;
+    // p = a; // a er first value address
+    // p = &a[0];
+    // cout << p << endl;
+    return 0;
 }
